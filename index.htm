@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>KAMITO GENERAL COMPANY LTD</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+            body,
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6 {
+                font-family: 'Times New Roman', Times, serif;
+            }
+
+            body,
+            
+            html {
+                height: 100%;
+                color: rgb(5, 5, 5);
+                line-height: 1.5;
+            }
+
+            /* Create a Parallax Effect */
+            .bgimg-1,
+            .bgimg-2,
+            .bgimg-3 {
+                background-attachment: fixed;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
+            /* First image (Logo. Full height) */
+            .bgimg-1 {
+                background-image: url('IMAGE/dixon2.jpg');
+                min-height: 400px;
+            }
+
+            /* Second image (Portfolio) */
+            .bgimg-2 {
+                background-image: url("IMAGE/1571664526-construction-progresses-kenya-temple-06.jpg");
+                min-height: 400px;
+            }
+
+            /* Third image (Contact) */
+            .bgimg-3 {
+                background-image: url("IMAGE/drainage-pipe-and-manhole-on-a-construction-site-free-photo.jpg");
+                min-height: 400px;
+            }
+
+            .w3-wide {
+                letter-spacing: 10px;
+            }
+
+            .w3-hover-opacity {
+                cursor: pointer;
+            }
+
+            /* Turn off parallax scrolling for tablets and phones */
+            @media only screen and (max-device-width: 1600px) {
+
+                .bgimg-1,
+                .bgimg-2,
+                .bgimg-3 {
+                    background-attachment: scroll;
+                    min-height: 400px;
+                }
+            }
+        </style>
+    </head>
+<body>
+
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+        <div class="w3-bar" id="myNavbar">
+            <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right"
+                href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+                <i class="fa fa-bars"></i>
+            </a>
+            <a href="#home" class="w3-button w3-round-xxlarge w3-small w3-light-grey w3-margin-bottom"><i class="fa fa-home"></i><b>HOME</b></a>
+            <a href="#about" class="w3-button w3-round-xxlarge w3-small w3-light-grey w3-margin-bottom"><i class="fa fa-user"></i><b> ABOUT </b></a>
+            <a href="#portfolio" class="w3-button w3-round-xxlarge w3-small w3-light-grey w3-margin-bottom"><i class="fa fa-th"></i><b>PORTFOLIO</b> </a>
+            <a href="#contact" class="w3-button w3-round-xxlarge w3-small w3-light-grey w3-margin-bottom"><i class="fa fa-envelope"></i><b> CONTACT</b></a>
+            <a href="#project" class="w3-button w3-round-xxlarge w3-small w3-light-grey w3-margin-bottom"><i class="fa fa-industry"></i><b>PROJECT</b></a>
+            
+        </div>
+
+        <!-- Navbar on small screens -->
+        <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+            <a href="#home" class="w3-bar-item w3-button" onclick="toggleFunction()">HOME</a>
+            <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+            <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
+            <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+            <a href="#project" class="w3-bar-item w3-button" onclick="toggleFunction()">PROJECT</a>
+        </div>
+    </div>
+
+    <!-- First Parallax Image with Logo Text -->
+    <div class="bgimg-1 w3-display-container" id="home">
+        <div class="w3-display-middle" style="white-space:nowrap;">
+            <img class="w3-center w3-round-xxlarge w3-small" class="w3-center" src="IMAGE/logo.jpg" width="80" height="80"><span class="w3-center w3-padding-large w3-green w3-xlarge w3-wide w3-animate-opacity">KAMITO<span> COMPANY</span>
+        </div>
+    </div>
+
+    <!-- Container (About Section) -->
+    <div class="w3-content w3-container w3-padding-64" id="about">
+            <h3 class="w3-center"><img class="w3-center w3-round-xxlarge w3-small " class="w3-center" src="IMAGE/kamito.png" width="100%" height="100"><br><b>ABOUT US</b></h3>
+        <p class="w3-center"><em>Kamito General Co. Limited is a well-established company in Kenya. </em></p>
+        <p >
+                It was incorporated in 2011 as a limited company. 
+                Kamito General construction Co. limited delivers state-of-the-art engineering solutions to the government, corporate, institutions and private sectors with construction of roads, buildings and water works. 
+                We have well professionalism, Kamito General Construction Co. Limited has fully qualified and experienced professionals in different fields of construction which includes Engineers, Architechs, Quantity servyors, Technicians and artisans. 
+                Since inception our mission has been to develop partnerships with clients to provide effective and reliable solutions that provide operational efficiency, productivity gains and cost savings to our clients. 
+                We strive to deliver rapid, reliable and robust solutions that work. 
+                We provide horizontal solutions knowledge and expertise in construction and collaboration. Our entire focus is geared to helping our clients derive value from their investment in infrastructure development so that they can become more successful in their core activities. 
+                This applies to small businesses, to major corporations and to entire governments.</p>
+
+
+                <h4><b>COMPANY VALUES </b></h4>
+                <p >  <ul>
+                    
+                    <li>To enhance the quality of constructions.</li> 
+                    <li>To serve with best value for money and high return on project.</li> 
+                    <li>To acquaint client with Residential and Commercial Projects of standards.</li> 
+                    <li>Serve with an environment of professionalism, team work and excellence. </li>
+                    <li>To respect all environmental rules, regulations and legal requirements.</li> 
+                    <li>To enhance customer value.</li> 
+                   
+                  </ul>
+                </p>   
+
+                <h5 style="font-size: 20px;" class="w3-center"><b>OUR MISSION </b></h5>
+                <p>To be honest in all our activities, dealings and consciously introspect our work and action on day to day basis. Kamito General Construction Co. Limited is a Company that would consciously like to channel its resources, energy and activities towards building a world that is free of low standards. We will question every action of ours of minute to minute bases and see to it that we continuously take on bigger challenges and we must grow and progress on a daily basis in everything that we perform. We must progress as individuals, as a company and as a truly meaningful organization that is honest and fair in all its dealings. 
+                 
+                Every person in our organization consciously develops himself in knowledge, attitude, habits, skills and strategies in order to build a meaningful world through our work. We strive for excellent quality in every work that we execute on a daily basis and see to it that we don't compromise on our values of honesty and commitment and at any given cost, irrespective of the situations. We believe in the foundation of quality, commitment and contemplation on regular basis in order to continuously grow. It is our mission to provide the best of work in our field irrespective of the challenges we face. We will not stop to dream because of difficult problems. We will continuously provide best and quality oriented work through our projects because of our current achievements will be the foundation of our success in the future   
+            </p>
+
+
+        <div class="w3-row">
+           
+                <p>Welcome to KAMITO website.
+                    <ul> 
+                        <li>We are self-focused and innovative in the achievement of a target</li> 
+                        <li>We like facing challenges and seeking innovative solutions </li>
+                        <li>We have a sense of integrity and values professionalism</li> 
+                        <li>We have reliable local professional contacts</li> 
+                        <li>We are ready to work anywhere anytime and in any day</li> 
+                    </ul>
+                    <h3><b>OUR SKILLS SUMMARY</b></h3>
+                    <ul>
+                        <li>Project management</li> 
+                        <li>Cost benefit analyst</li>  
+                        <li>Construction management </li> 
+                        <li>Site supervisor</li>  
+                        <li>Construction risk assessment & safety regulations</li>  
+                        <li>Construction materials & technology</li>  
+                        <li>Audit and report writing </li> 
+                        <li>Measurement and valuations</li>   
+                        <li> Project cost control and maintenance</li> 
+                    </ul>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <!-- Second Parallax Image with Portfolio Text -->
+    <div class="bgimg-2 w3-display-container w3-opacity-min">
+        <div class="w3-display-middle">
+            <span class="w3-xxlarge w3-text-white w3-wide">PORTFOLIO</span>
+        </div>
+    </div>
+
+    <!-- Container (Portfolio Section) -->
+    <div class="w3-content w3-container w3-padding-64" id="portfolio">
+        <h3 class="w3-center"><img class="w3-center w3-round-xxlarge w3-small" class="w3-center" src="IMAGE/kamito.png" width="100%" height="100"><br><b>OUR WORK</b></h3>
+        <p class="w3-center"><em>Here are some of our latest  work .<br> Click on the images to make
+                them bigger</em></p><br>
+
+        <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+        <div class="w3-row-padding w3-center">
+            <div class="w3-col m3">
+                <img src="IMAGE/PicGrid1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+            </div>
+
+            <div class="w3-col m3">
+                <img src="IMAGE/PicGrid2.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+            </div>
+
+            <div class="w3-col m3">
+                <img src="IMAGE/PicGrid3.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+            </div>
+
+            <div class="w3-col m3">
+                <img src="IMAGE/PicGrid4.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+            </div>
+        </div>
+
+        <div class="w3-row-padding w3-center w3-section">
+            <div class="w3-col m3">
+                <img src="IMAGE/PicGrid5.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+            </div>
+
+            <div class="w3-col m3">
+                <img src="IMAGE/PicGrid6.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
+                    >
+            </div>
+
+            <div class="w3-col m3">
+                <img src="IMAGE/PicGrid9.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
+                    >
+            </div>
+
+            <div class="w3-col m3">
+                <img src="IMAGE/PicGrid8.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+            </div>
+            <button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">LOAD MORE</button>
+        </div>
+      
+    </div>
+    
+    <!-- Modal for full size images on click-->
+    <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+        <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i
+                class="fa fa-remove"></i></span>
+        <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+            <img id="img01" class="w3-image">
+            <p id="caption" class="w3-opacity w3-large"></p>
+        </div>
+    </div>
+
+    <!-- Third Parallax Image with Portfolio Text -->
+    <div class="bgimg-3 w3-display-container w3-opacity-min">
+        <div class="w3-display-middle">
+            <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
+        </div>
+    </div>
+
+    <!-- Container (Contact Section) -->
+    
+    <div class="w3-content w3-container w3-padding-60" id="contact">
+        <div class="w3-content w3-container w3-padding-60" id="img">
+        <h3 class="w3-center"><img class="w3-center w3-round-xxlarge w3-small" class="w3-center" src="IMAGE/kamito.png" width="100%" height="100"><br><b>WHERE TO FIND KAMITO</b></h3>
+        <p class="w3-center"><em>I'd love your feedback!</em></p>
+
+        <div class="w3-row w3-padding-45 w3-section">
+            <div class="w3-col m4 w3-container">
+                <img src="IMAGE/map.jpg" class="w3-image w3-round" style="width: 1200px">
+            </div>
+            <div class="w3-col m8 w3-panel">
+                <div class="w3-large w3-margin-bottom">
+                    <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Nairobi, Kenya<br>
+                    <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: +254
+                    780699670<br>
+                    <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email:
+                    kamitogc@gmail.com<br>
+                </div>
+                <p>Swing by for a cup of <i class="fa fa-coffee"></i>, or leave me a note:<i class="fa fa-commenting"></i></p>
+                <form action="https://formspree.io/f/mvoyqpgy" method="POST" id="my-form">
+                    <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+                        <div class="w3-half">
+                            <input class="w3-input w3-border" type="text" placeholder="FisrtName" required name="FirstName">
+                        </div>
+                        <div class="w3-half">
+                            <input class="w3-input w3-border" type="text" placeholder="LastName" required name="LastName">
+                        </div>
+                        <div class="w3-half">
+                            <input class="w3-input w3-border" type="text" placeholder="PhoneNumber" required name="PhoneNumber">
+                        </div>
+                        <div class="w3-half">
+                            <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+                        </div>
+                    </div>
+                    <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+                    <button class="w3-button w3-black w3-right w3-section" type="submit">
+                        <i class="fa fa-paper-plane"></i> SEND MESSAGE
+                    </button>
+                    <a class="w3-button w3-round-xxlarge w3-small" href="https://wa.me//+254780699670?text=Hello%20KAMITO%20GENRAL%20LTD%20im%20from%20your%20website%20kindly%20assist%20me%20in"><p style="font-size: 20px;">click &#128071 to whatsapp us:</p>
+                        <i class="fa fa-whatsapp" style="font-size: 50px;color: green;"></i></a>
+                </form>
+            </div>
+        </div>
+       
+    </div>
+
+    <!--cointainer (project section)-->
+    <div class="w3-content w3-container w3-padding-6" id="project"></div>
+    <!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1500px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 1s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: slide;
+  animation-duration: 20s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+</style>
+</head>
+<body>
+
+<h2 class="w3-center"> <img style="padding: 20px" class="w3-center w3-round-xxlarge w3-padding-small" class="w3-center w3-padding-small" src="IMAGE/kamito.png" width="100%" height="100"><br><b>PROJECTS</b></h2>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 7</div>
+  <img src="IMAGE/HOUSE4.jpg" style="width:100%">
+  <div class="text"><b>DRAWING</b></div>
+</div>
+
+<div class="mySlides fade">
+    <div class="numbertext">2 / 7</div>
+    <img src="IMAGE/dixon1.jpg" style="width:100%">
+    <div class="text"><b>THE FOUNDATION</b> </div>
+  </div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 7</div>
+  <img src="IMAGE/dixon2.jpg" style="width:100%">
+  <div class="text"><b>THE STRUCTURE</b> </div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 7</div>
+  <img src="IMAGE/dixon4.jpg" style="width:100%">
+  <div class="text"><b>FINISHED</b></div>
+</div>
+
+<div class="mySlides fade">
+    <div class="numbertext">5 / 7</div>
+    <img src="IMAGE/nikoroi1.jpg" style="width:100%">
+    <div class="text">THE FOUNDATION</div>
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">6 / 7</div>
+    <img src="IMAGE/nikoroi2.jpg" style="width:100%">
+    <div class="text">THE STRUCTURE </div>
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">7 / 7</div>
+    <img src="IMAGE/nikoroi3.jpg" style="width:100%">
+    <div class="text"><b>FINISHED</b></div>
+  </div>
+  
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+  <span class="dot"></span>  
+</div>
+
+</div>
+
+  <!-- Container (work done Section) -->
+  <div>
+<h3 class="w3-center"><b>For a more detailed view of various projects that we have undertaken, click any of the below &#128071 categories</b></h3><br>
+<a class="w3-button w3-round-xxlarge w3-small-center w3-black w3-margin-bottom" href="serene.html"><b>SERENE APARTMENTS PROJECT</b></a>
+<a class="w3-button w3-round-xxlarge w3-small-center w3-black w3-margin-bottom" href="nikoroi.html"><b>NIKOROI PROJECT</b></a>
+<a class="w3-button w3-round-xxlarge w3-small-center w3-black w3-margin-bottom" href="kenyapower.html"><b>KENYA POWER PROJECT</b></a>
+<a class="w3-button w3-round-xxlarge w3-small-center w3-black w3-margin-bottom" href="daystar.html"><b>DAYSTAR PROJECT</b></a>
+<a class="w3-button w3-round-xxlarge w3-small-right w3-black w3-margin-bottom" href="bio.html"><b>KISUMU BIO-DIGESTER</b></a>
+<a class="w3-button w3-round-xxlarge w3-small-center w3-black w3-margin-bottom" href="road.html"><b>ROAD WORKS</b></a>
+</div>
+</div>
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000);  // Change image every 20 seconds
+}
+</script>
+
+</body>
+</html> 
+
+    <!-- Footer. This section contains an ad for W3Schools Spaces. You can leave it to support us. -->
+    <footer class="w3-center w3-black w3-padding-60 w3-opacity w3-hover-opacity-off">
+        <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+       
+    <p class="w3-small">This website was made by peter oyugi email:oyugipeterodongo@gmail.com phone:+254114148625</p>
+    <a class="w3-button w3-round-xxlarge w3-small w3-light-grey w3-margin-bottom" href="https://wa.me/+254114148625?text=Hello%20Mr.%20Peter%20im%20intrested%20in%20designing%20my%20website" target="_blank"><i class="fa fa-whatsapp"> whatsapp Peter</i></a>
+    <!-- Footer end. -->
+    </footer>
+
+    <script>
+        // Modal Image Gallery
+        function onClick(element) {
+            document.getElementById("img01").src = element.src;
+            document.getElementById("modal01").style.display = "block";
+            var captionText = document.getElementById("caption");
+            captionText.innerHTML = element.alt;
+        }
+
+        // Change style of navbar on scroll
+        window.onscroll = function () { myFunction() };
+        function myFunction() {
+            var navbar = document.getElementById("myNavbar");
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+            } else {
+                navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+            }
+        }
+
+        // Used to toggle the menu on small screens when clicking on the menu button
+        function toggleFunction() {
+            var x = document.getElementById("navDemo");
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            } else {
+                x.className = x.className.replace(" w3-show", "");
+            }
+        }
+
+       
+    </script>
+
+</body>
+
+</html>
